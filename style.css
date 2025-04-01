@@ -1,0 +1,35 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    background-color: #7fc5f4;
+    float: left;
+    position: fixed;
+    padding: 20px;
+    color: white;
+}
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;  
+    margin-bottom: 10px;
+}
+.content {
+    width: 80%;
+    height: 100vh;
+    background-color: #ecf0f1;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
